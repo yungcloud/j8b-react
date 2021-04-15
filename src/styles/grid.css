@@ -12,7 +12,7 @@
 }
 
 .slider {
-  animation: marquee 100s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 
 @keyframes marquee {
