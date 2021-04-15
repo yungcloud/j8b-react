@@ -1,0 +1,192 @@
+.asset-20-gallery-2 {
+    align-self: center;
+    height: 15px;
+    margin-bottom: 1.0px;
+    margin-left: 31px;
+    object-fit: cover;
+    width: 85px;
+  }
+  .asset-21-purchase-2 {
+    height: 17px;
+    margin-left: 49px;
+    object-fit: cover;
+    width: 83px;
+  }
+  .asset-23-wallet-3 {
+    height: 15px;
+    margin-left: 29px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 99px;
+  }
+  .asset-26-j48-messy-1 {
+    height: 120px;
+    left: 201px;
+    object-fit: cover;
+    position: absolute;
+    top: 31px;
+    width: 190px;
+  }
+  .asset-28-bounty-2 {
+    height: 20px;
+    margin-left: 30px;
+    object-fit: cover;
+    width: 88px;
+  }
+  .asset-3-l1-2 {
+    height: 55px;
+    left: 41px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 488px;
+  }
+  .asset-31-main-2 {
+    height: 15px;
+    object-fit: cover;
+    width: 51px;
+  }
+  .asset-34-twitter-1 {
+    height: 28px;
+    margin-left: 14px;
+    margin-top: 35.52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  .asset-35-discord-1 {
+    height: 22px;
+    left: 503px;
+    object-fit: cover;
+    position: absolute;
+    top: 83px;
+    width: 40px;
+  }
+  .asset-41-grottolab1-1 {
+    height: 48px;
+    left: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 60px;
+    width: 58px;
+  }
+  
+  .flex-row-navigation {
+    display: flex;
+    min-width: 590px;
+    margin:0px auto;
+    margin-top:20px;
+    align-items: center;
+    justify-content: center;
+    z-index:2;
+    position: relative;
+  }
+
+  .flex-row-footer {
+    align-items: center;
+    display: flex;
+    margin:0px auto;
+    height:150px;
+    position: fixed;
+    bottom:0px;
+    background:white;
+    border:1px solid red;
+    width:100%;
+  }
+
+  .grotto-labs-logo-3 {
+    height: 78px;
+    left: 0px;
+    object-fit: cover;
+    position: absolute;
+    top: 52px;
+    width: 67px;
+  }
+  .overlap-group {
+    height: 150px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 528px;
+  }
+  .overlap-group1 {
+    height: 150px;
+    position: relative;
+    width: 543px;
+  }
+  .asset-18-prov-2 {
+    height: 15px;
+    margin-left: 42px;
+    object-fit: cover;
+    width: 68px;
+  }
+  .asset-20-gallery-2 {
+    align-self: center;
+    height: 15px;
+    margin-bottom: 1.0px;
+    margin-left: 31px;
+    object-fit: cover;
+    width: 85px;
+  }
+  .asset-21-purchase-2 {
+    height: 17px;
+    margin-left: 49px;
+    object-fit: cover;
+    width: 83px;
+  }
+  .asset-23-wallet-3 {
+    height: 15px;
+    margin-left: 29px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 99px;
+  }
+  .asset-26-j48-messy-1 {
+    height: 120px;
+    left: 201px;
+    object-fit: cover;
+    position: absolute;
+    top: 31px;
+    width: 190px;
+  }
+  .asset-28-bounty-2 {
+    height: 20px;
+    margin-left: 30px;
+    object-fit: cover;
+    width: 88px;
+  }
+  .asset-3-l1-2 {
+    height: 55px;
+    left: 41px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 488px;
+  }
+  .asset-31-main-2 {
+    height: 15px;
+    object-fit: cover;
+    width: 51px;
+  }
+  .asset-34-twitter-1 {
+    height: 28px;
+    margin-left: 14px;
+    margin-top: 35.52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  .asset-35-discord-1 {
+    height: 22px;
+    left: 503px;
+    object-fit: cover;
+    position: absolute;
+    top: 83px;
+    width: 40px;
+  }
+  .asset-41-grottolab1-1 {
+    height: 48px;
+    left: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 60px;
+    width: 58px;
+  }

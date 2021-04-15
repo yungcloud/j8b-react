@@ -1,0 +1,291 @@
+/* screen - bounty */
+
+.bounty {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1194px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 33px 64.5px;
+  position: relative;
+  width: 789px;
+}
+.bounty .asset-18-prov-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 42px;
+  object-fit: cover;
+  position: relative;
+  width: 68px;
+}
+.bounty .asset-20-gallery-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 31px;
+  object-fit: cover;
+  position: relative;
+  width: 85px;
+}
+.bounty .asset-21-purchase-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 17px;
+  margin-bottom: 1.0px;
+  margin-left: 49px;
+  object-fit: cover;
+  position: relative;
+  width: 83px;
+}
+.bounty .asset-23-wallet-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 29px;
+  object-fit: cover;
+  position: relative;
+  width: 99px;
+}
+.bounty .asset-26-j48-messy-1-GVQFxU {
+  background-color: transparent;
+  height: 120px;
+  left: 196px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 190px;
+}
+.bounty .asset-27-bountyframe-1-xXGW75 {
+  background-color: transparent;
+  height: 546px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 454px;
+}
+.bounty .asset-28-bounty-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 20px;
+  margin-left: 30px;
+  object-fit: cover;
+  position: relative;
+  width: 88px;
+}
+.bounty .asset-3-l1-2-GVQFxU {
+  background-color: transparent;
+  height: 55px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 488px;
+}
+.bounty .asset-30-claimbounty-1-FrjclV {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 38px;
+  margin-left: 53.0px;
+  margin-top: 66px;
+  object-fit: cover;
+  position: relative;
+  width: 255px;
+  cursor: pointer;
+}
+.bounty .asset-31-main-1-dXBp89 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  object-fit: cover;
+  position: relative;
+  width: 51px;
+}
+.bounty .asset-34-twitter-1-BdpSxK {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 28px;
+  margin-bottom: 256px;
+  margin-left: 14px;
+  object-fit: cover;
+  position: relative;
+  width: 33px;
+}
+.bounty .asset-35-discord-1-GVQFxU {
+  background-color: transparent;
+  height: 22px;
+  left: 498px;
+  object-fit: cover;
+  position: absolute;
+  top: 83px;
+  width: 40px;
+}
+.bounty .asset-41-grottolab1-1-GVQFxU {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 58px;
+}
+.bounty .bountymerch-2-xXGW75 {
+  background-color: transparent;
+  height: 65px;
+  left: 143px;
+  object-fit: cover;
+  position: absolute;
+  top: 458px;
+  width: 235px;
+}
+.bounty .bountymerch3-1-xXGW75 {
+  background-color: transparent;
+  height: 73px;
+  left: 143px;
+  object-fit: cover;
+  position: absolute;
+  top: 450px;
+  width: 230px;
+}
+.bounty .do-you-have-a-j-of-a-kind-prize-FrjclV {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 56px;
+  margin-left: 43.01px;
+  margin-top: 139px;
+  position: relative;
+  width: 421px;
+}
+.bounty .flex-col-BdpSxK {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 1241px;
+  position: relative;
+  width: 538px;
+}
+.bounty .flex-row-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 20px;
+  justify-content: flex-start;
+  min-width: 657px;
+  position: relative;
+  width: auto;
+}
+.bounty .flex-row-VMr6Om {
+  align-items: flex-end;
+  align-self: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 1241px;
+  justify-content: flex-start;
+  margin-top: 91px;
+  min-width: 585px;
+  position: relative;
+  width: auto;
+}
+.bounty .frame-1-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-right: 22.44px;
+  margin-top: 18px;
+  overflow: hidden;
+  position: relative;
+  width: 6px;
+}
+.bounty .frame-2-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-right: 25.44px;
+  margin-top: 192px;
+  overflow: hidden;
+  position: relative;
+  width: 6px;
+}
+.bounty .grotto-labs-logo-3-GVQFxU {
+  background-color: transparent;
+  height: 78px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 67px;
+}
+.bounty .j48-balegacy-165-1-xXGW75 {
+  background-color: transparent;
+  height: 210px;
+  left: 109px;
+  object-fit: cover;
+  position: absolute;
+  top: 168px;
+  width: 210px;
+}
+.bounty .left-arrow-1-xXGW75 {
+  background-color: transparent;
+  height: 134px;
+  left: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 189px;
+  width: 56px;
+  z-index:2;
+  cursor: pointer;
+}
+.bounty .overlap-group-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 546px;
+  margin-right: 20px;
+  position: relative;
+  width: 454px;
+}
+.bounty .overlap-group1-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 150px;
+  margin-top: 32px;
+  position: relative;
+  width: 538px;
+}
+.bounty .right-arrow-1-xXGW75 {
+  background-color: transparent;
+  height: 133px;
+  left: 344px;
+  object-fit: cover;
+  position: absolute;
+  top: 192px;
+  width: 57px;
+  z-index:2;
+  cursor: pointer;
+}

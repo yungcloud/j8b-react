@@ -1,0 +1,453 @@
+/* screen - home */
+
+
+.home {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1898px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 33px 0;
+  position: relative;
+  width: 789px;
+}
+.home .asset-18-prov-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 42px;
+  object-fit: cover;
+  position: relative;
+  width: 68px;
+}
+.home .asset-20-gallery-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 31px;
+  object-fit: cover;
+  position: relative;
+  width: 85px;
+}
+.home .asset-21-purchase-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 17px;
+  margin-bottom: 1.0px;
+  margin-left: 49px;
+  object-fit: cover;
+  position: relative;
+  width: 83px;
+}
+.home .asset-23-wallet-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 29px;
+  object-fit: cover;
+  position: relative;
+  width: 99px;
+}
+.home .asset-26-j48-messy-1-xYI43P {
+  background-color: transparent;
+  height: 120px;
+  left: 205px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 190px;
+}
+.home .asset-28-bounty-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 20px;
+  margin-left: 30px;
+  object-fit: cover;
+  position: relative;
+  width: 88px;
+}
+.home .asset-3-l1-1-y1HRxC {
+  background-color: transparent;
+  height: 55px;
+  left: 83px;
+  object-fit: cover;
+  position: absolute;
+  top: 420px;
+  width: 488px;
+}
+.home .asset-3-l1-2-xYI43P {
+  background-color: transparent;
+  height: 55px;
+  left: 45px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 488px;
+}
+.home .asset-31-main-1-dXBp89 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  object-fit: cover;
+  position: relative;
+  width: 51px;
+}
+.home .asset-34-twitter-1-4xxXEe {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 28px;
+  margin-left: 14px;
+  margin-top: 79.0px;
+  object-fit: cover;
+  position: relative;
+  width: 33px;
+}
+.home .asset-35-discord-1-xYI43P {
+  background-color: transparent;
+  height: 22px;
+  left: 507px;
+  object-fit: cover;
+  position: absolute;
+  top: 83px;
+  width: 40px;
+}
+.home .asset-4-l3-1-xpmbvu {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 47px;
+  margin-left: 20.05px;
+  object-fit: cover;
+  position: relative;
+  width: 585px;
+}
+.home .asset-41-grottolab1-1-xYI43P {
+  background-color: transparent;
+  height: 48px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 58px;
+}
+.home .asset-67curve-3-xpmbvu {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 310px;
+  margin-top: 24px;
+  object-fit: cover;
+  position: relative;
+  width: 640px;
+}
+.home .barre-lj48-1-fKmFVR {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 121px;
+  object-fit: cover;
+  position: relative;
+  width: 110px;
+}
+.home .barre-lj48-2-fKmFVR {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 121px;
+  margin-left: 28px;
+  object-fit: cover;
+  position: relative;
+  width: 110px;
+}
+.home .computer-genera-d-ganj48-baform-DTrHo1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 174px;
+  width: 261px;
+}
+.home .flex-col-0xy0vn {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 14px;
+  min-height: 885px;
+  position: relative;
+  width: 640px;
+}
+.home .flex-col-4xxXEe {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 344px;
+  position: relative;
+  width: 547px;
+}
+.home .flex-col-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-right: -413.0px;
+  margin-top: 100px;
+  min-height: 2206px;
+  position: relative;
+  width: 1145px;
+}
+.home .flex-col-GyJUNH {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 524px;
+  position: relative;
+  width: 283px;
+}
+.home .flex-col-gkUG7I {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 33px;
+  min-height: 523px;
+  position: relative;
+  width: 267px;
+}
+.home .flex-row-0xy0vn {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 524px;
+  justify-content: flex-start;
+  margin-top: 6px;
+  min-width: 1106px;
+  position: relative;
+  width: auto;
+}
+.home .flex-row-9Sxrs4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 344px;
+  justify-content: flex-start;
+  margin-right: 10px;
+  margin-top: 29px;
+  min-width: 594px;
+  position: relative;
+  width: auto;
+}
+.home .flex-row-C61RwL {
+  align-items: center;
+  align-self: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 20px;
+  justify-content: flex-start;
+  margin-left: 3.46px;
+  min-width: 657px;
+  position: relative;
+  width: auto;
+}
+.home .flex-row-xpmbvu {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 127px;
+  justify-content: flex-start;
+  margin-left: 20.0px;
+  margin-top: 4px;
+  min-width: 526px;
+  position: relative;
+  width: auto;
+}
+.home .frame-1-Ee5ApG {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-right: 25.44px;
+  margin-top: 192px;
+  overflow: hidden;
+  position: relative;
+  width: 6px;
+}
+.home .grotto-labs-logo-6-xYI43P {
+  background-color: transparent;
+  height: 78px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  width: 67px;
+}
+.home .hand-made-legacy-j48-baform-nFOi0F {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: 23.0px;
+  margin-top: 8px;
+  min-height: 18px;
+  min-width: 208px;
+  position: relative;
+  text-align: left;
+  width: auto;
+}
+.home .j48-baforms-pro-d-cared-for-art-3xHcwy {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  min-height: 298px;
+  position: relative;
+  text-align: left;
+  width: 283px;
+}
+.home .overlap-group-0xy0vn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 475px;
+  margin-left: 8px;
+  position: relative;
+  width: 660px;
+}
+.home .overlap-group1-Ee5ApG {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 150px;
+  position: relative;
+  width: 547px;
+}
+.home .overlap-group2-nFOi0F {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 497px;
+  position: relative;
+  width: 267px;
+}
+.home .overlap-group3-3xHcwy {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 193px;
+  margin-left: 4.0px;
+  margin-top: 33px;
+  position: relative;
+  width: 261px;
+}
+.home .purchasejabbaform-final-1-fKmFVR {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 121px;
+  margin-left: 28px;
+  object-fit: cover;
+  position: relative;
+  width: 250px;
+}
+.home .purchasejabbaform-final-2-GyJUNH {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 117px;
+  margin-left: 293px;
+  margin-top: 71.0px;
+  object-fit: cover;
+  position: relative;
+  width: 230px;
+}
+.home .rectangle-1-y1HRxC {
+  background-color: transparent;
+  height: 550px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: -50px;
+  width: 660px;
+}
+.home .rectangle-1-y1HRxC img {
+  object-fit: cover;
+}
+.home .rectangle-1-y1HRxC video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.home .rectangle-2-jexT3O {
+  background-color: transparent;
+  height: 158px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 339px;
+  width: 200px;
+}
+.home .rectangle-3-DTrHo1 {
+  background-color: transparent;
+  height: 188px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 200px;
+}
+.home .we-started-with-afted-with-love-jexT3O {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 267px;
+}

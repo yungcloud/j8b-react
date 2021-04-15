@@ -1,0 +1,476 @@
+/* screen - purchase */
+
+.purchase {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1930px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 33px 35.3px;
+  position: relative;
+  width: 789px;
+}
+.purchase .asset-18-prov-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 42px;
+  object-fit: cover;
+  position: relative;
+  width: 68px;
+}
+.purchase .asset-20-gallery-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 31px;
+  object-fit: cover;
+  position: relative;
+  width: 85px;
+}
+.purchase .asset-21-purchase-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 17px;
+  margin-bottom: 1.0px;
+  margin-left: 49px;
+  object-fit: cover;
+  position: relative;
+  width: 83px;
+}
+.purchase .asset-22-purchjabb-2-NG5cxJ {
+  background-color: transparent;
+  height: 88px;
+  left: 230px;
+  object-fit: cover;
+  position: absolute;
+  top: 741px;
+  width: 251px;
+  cursor: pointer;
+  z-index:2;
+}
+.purchase .asset-23-wallet-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 29px;
+  object-fit: cover;
+  position: relative;
+  width: 99px;
+}
+.purchase .asset-26-j48-messy-1-H5vPvf {
+  background-color: transparent;
+  height: 120px;
+  left: 196px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 190px;
+}
+.purchase .asset-28-bounty-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 20px;
+  margin-left: 30px;
+  object-fit: cover;
+  position: relative;
+  width: 88px;
+}
+.purchase .asset-3-l1-2-H5vPvf {
+  background-color: transparent;
+  height: 55px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 488px;
+}
+.purchase .asset-31-main-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  object-fit: cover;
+  position: relative;
+  width: 51px;
+}
+.purchase .asset-34-twitter-1-fKmFVR {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 28px;
+  margin-left: 14px;
+  margin-top: 35.52px;
+  object-fit: cover;
+  position: relative;
+  width: 33px;
+}
+.purchase .asset-35-discord-1-ASQbkE {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 22px;
+  object-fit: cover;
+  position: relative;
+  width: 40px;
+}
+.purchase .asset-4-l3-2-52Wjwg {
+  background-color: transparent;
+  height: 47px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 613px;
+}
+.purchase .asset-41-grottolab1-1-H5vPvf {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 58px;
+}
+.purchase .asset-67curve-2-xpmbvu {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 310px;
+  object-fit: cover;
+  position: relative;
+  width: 640px;
+}
+.purchase .bwgan-221-GyJUNH {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 182px;
+  margin-left: 118px;
+  object-fit: cover;
+  position: relative;
+  width: 134px;
+}
+.purchase .bwgan-226-GyJUNH {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 168px;
+  margin-bottom: 8.0px;
+  margin-left: 113px;
+  object-fit: cover;
+  position: relative;
+  width: 149px;
+}
+.purchase .bwgan-251-GyJUNH {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 181px;
+  object-fit: cover;
+  position: relative;
+  width: 135px;
+}
+.purchase .clickthecan-1-0xy0vn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 36px;
+  margin-left: 19.26px;
+  margin-top: 25px;
+  object-fit: cover;
+  position: relative;
+  width: 377px;
+}
+.purchase .currentpricejabbaform-1-52Wjwg {
+  background-color: transparent;
+  height: 151px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 34px;
+  width: 309px;
+}
+.purchase .flex-col-0xy0vn {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-right: 29.74px;
+  margin-top: 35px;
+  min-height: 490px;
+  position: relative;
+  width: 640px;
+}
+.purchase .flex-col-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 28px;
+  min-height: 1849px;
+  position: relative;
+  width: 710px;
+}
+.purchase .flex-col-H5vPvf {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 498px;
+  min-height: 56px;
+  position: absolute;
+  top: 83px;
+  width: 40px;
+}
+.purchase .flex-col-IMpwyX {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 637px;
+  min-height: 194px;
+  position: absolute;
+  top: 672px;
+  width: 72px;
+}
+.purchase .flex-col-NG5cxJ {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  left: 0px;
+  min-height: 179px;
+  position: absolute;
+  top: 676px;
+  width: 73px;
+}
+.purchase .flex-row-0xy0vn {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 186px;
+  justify-content: flex-start;
+  margin-right: 10.74px;
+  margin-top: 14px;
+  min-width: 649px;
+  position: relative;
+  width: auto;
+}
+.purchase .flex-row-C61RwL {
+  align-items: center;
+  align-self: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 20px;
+  justify-content: flex-start;
+  margin-left: 3.46px;
+  min-width: 657px;
+  position: relative;
+  width: auto;
+}
+.purchase .flex-row-xpmbvu {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 150px;
+  justify-content: flex-start;
+  margin-right: 7px;
+  margin-top: 30px;
+  min-width: 585px;
+  position: relative;
+  width: auto;
+}
+.purchase .frame-1-ASQbkE {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-right: 16.89px;
+  margin-top: 33px;
+  overflow: hidden;
+  position: relative;
+  width: 6px;
+}
+.purchase .frame-3-NG5cxJ {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 124px;
+  justify-content: flex-end;
+  left: 178px;
+  min-width: 358px;
+  padding: 6.8px 108.1px;
+  position: absolute;
+  top: 709px;
+  transform: rotate(-0.51deg);
+  width: auto;
+}
+.purchase .frame-4-NG5cxJ {
+  background-color: transparent;
+  height: 4px;
+  left: 374px;
+  overflow: hidden;
+  position: absolute;
+  top: 737px;
+  width: 4px;
+}
+.purchase .frame-5-AdpH7j {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  transform: rotate(0.50deg);
+  width: 100px;
+}
+.purchase .grotto-labs-logo-5-H5vPvf {
+  background-color: transparent;
+  height: 78px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  width: 67px;
+}
+.purchase .jabbaform-purchase-button3-1-NG5cxJ {
+  background-color: transparent;
+  height: 260px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 611px;
+  width: 524px;
+  cursor: pointer ;
+  z-index:1;
+}
+.purchase .overlap-group-fKmFVR {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 150px;
+  position: relative;
+  width: 538px;
+}
+.purchase .overlap-group1-0xy0vn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 871px;
+  position: relative;
+  width: 710px;
+}
+.purchase .overlap-group2-0xy0vn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 185px;
+  margin-right: 0.18px;
+  margin-top: 6px;
+  position: relative;
+  width: 616px;
+}
+.purchase .shiny-1-NG5cxJ {
+  background-color: transparent;
+  height: 54px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 586px;
+  width: 57px;
+}
+.purchase .shiny-2-xbkSRC {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 88px;
+  object-fit: cover;
+  position: relative;
+  width: 73px;
+}
+.purchase .shiny-3-xbkSRC {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 54px;
+  margin-right: 1.07px;
+  margin-top: 36px;
+  object-fit: cover;
+  position: relative;
+  width: 58px;
+}
+.purchase .shiny-4-NG5cxJ {
+  background-color: transparent;
+  height: 54px;
+  left: 633px;
+  object-fit: cover;
+  position: absolute;
+  top: 586px;
+  width: 57px;
+}
+.purchase .shiny-5-y0Ojnz {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 64px;
+  margin-left: 3.89px;
+  margin-top: 45px;
+  object-fit: cover;
+  position: relative;
+  width: 66px;
+}
+.purchase .shiny-6-y0Ojnz {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 86px;
+  object-fit: cover;
+  position: relative;
+  width: 72px;
+}
+.purchase .x08-eth-1-52Wjwg {
+  background-color: transparent;
+  height: 93px;
+  left: 346px;
+  object-fit: cover;
+  position: absolute;
+  top: 74px;
+  width: 244px;
+}
+.purchase .you-doodle202-9-t072157-z-1-NG5cxJ {
+  background-color: transparent;
+  height: 590px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 657px;
+}

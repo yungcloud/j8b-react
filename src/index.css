@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,700");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  zoom: 1; 
+}
+
+.container-center-horizontal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spacemono-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-12px);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --font-family-space_mono: "Space Mono", Helvetica;
+  --font-size-12px: 12px;
+  --white: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 600px) {
+
+}

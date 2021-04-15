@@ -1,0 +1,234 @@
+/* screen - about */
+
+.about {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 873px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 33px 64.5px;
+  position: relative;
+  width: 789px;
+}
+.about .asset-18-prov-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 42px;
+  object-fit: cover;
+  position: relative;
+  width: 68px;
+}
+.about .asset-20-gallery-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 31px;
+  object-fit: cover;
+  position: relative;
+  width: 85px;
+}
+.about .asset-21-purchase-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 17px;
+  margin-bottom: 1.0px;
+  margin-left: 49px;
+  object-fit: cover;
+  position: relative;
+  width: 83px;
+}
+.about .asset-23-wallet-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 29px;
+  object-fit: cover;
+  position: relative;
+  width: 99px;
+}
+.about .asset-26-j48-messy-1-GVQFxU {
+  background-color: transparent;
+  height: 120px;
+  left: 197px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 190px;
+}
+.about .asset-28-bounty-1-dXBp89 {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 1;
+  height: 20px;
+  margin-left: 30px;
+  object-fit: cover;
+  position: relative;
+  width: 88px;
+}
+.about .asset-3-l1-2-GVQFxU {
+  background-color: transparent;
+  height: 55px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 488px;
+}
+.about .asset-31-main-1-dXBp89 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 15px;
+  margin-bottom: 1.0px;
+  object-fit: cover;
+  position: relative;
+  width: 51px;
+}
+.about .asset-34-twitter-1-BdpSxK {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 28px;
+  margin-bottom: 237px;
+  margin-left: 14px;
+  object-fit: cover;
+  position: relative;
+  width: 33px;
+}
+.about .asset-35-discord-1-GVQFxU {
+  background-color: transparent;
+  height: 22px;
+  left: 499px;
+  object-fit: cover;
+  position: absolute;
+  top: 83px;
+  width: 40px;
+}
+.about .asset-41-grottolab1-1-GVQFxU {
+  background-color: transparent;
+  height: 48px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 58px;
+}
+.about .asset-41-grottolab1-2-xXGW75 {
+  background-color: transparent;
+  height: 179px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 217px;
+}
+.about .flex-col-BdpSxK {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 990px;
+  position: relative;
+  width: 539px;
+}
+.about .flex-row-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 20px;
+  justify-content: flex-start;
+  min-width: 657px;
+  position: relative;
+  width: auto;
+}
+.about .flex-row-VMr6Om {
+  align-items: flex-end;
+  align-self: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 990px;
+  justify-content: flex-start;
+  margin-left: 17.0px;
+  margin-top: 18px;
+  min-width: 586px;
+  position: relative;
+  width: auto;
+}
+.about .frame-2-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1px;
+  margin-right: 25.44px;
+  margin-top: 192px;
+  overflow: hidden;
+  position: relative;
+  width: 6px;
+}
+.about .grotto-labs-are-msprotonmailcom-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: 22px;
+  margin-top: 11px;
+  min-height: 384px;
+  position: relative;
+  text-align: center;
+  width: 450px;
+}
+.about .grotto-labs-logo-1-xXGW75 {
+  background-color: transparent;
+  height: 216px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 261px;
+}
+.about .grotto-labs-logo-2-GVQFxU {
+  background-color: transparent;
+  height: 78px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  width: 67px;
+}
+.about .overlap-group-FrjclV {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 216px;
+  margin-left: 30.0px;
+  position: relative;
+  width: 261px;
+}
+.about .overlap-group1-FrjclV {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 150px;
+  margin-top: 35px;
+  position: relative;
+  width: 539px;
+}

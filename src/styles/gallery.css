@@ -1,0 +1,750 @@
+/* screen - formgallery */
+
+.formgallery {
+  background-color: var(--white);
+  height: 4480px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 789px;
+  top:-50px;
+  
+}
+
+.musiform-video{
+  width:480px;
+  height:300px;
+  margin:10px auto;
+}
+
+.musiform-video img{
+  object-fit: cover;
+}
+.musiform-video video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.formgallery .asset-18-prov-2-C61RwL {
+  background-color: transparent;
+  height: 15px;
+  left: 649px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 68px;
+}
+.formgallery .asset-20-gallery-2-C61RwL {
+  background-color: transparent;
+  height: 15px;
+  left: 522px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 85px;
+}
+.formgallery .asset-21-purchase-2-C61RwL {
+  background-color: transparent;
+  height: 17px;
+  left: 160px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 83px;
+}
+.formgallery .asset-23-wallet-3-C61RwL {
+  background-color: transparent;
+  height: 15px;
+  left: 273px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 99px;
+}
+.formgallery .asset-26-j48-messy-1-C61RwL {
+  background-color: transparent;
+  height: 120px;
+  left: 289px;
+  object-fit: cover;
+  position: absolute;
+  top: 4365px;
+  width: 190px;
+}
+.formgallery .asset-28-bounty-2-C61RwL {
+  background-color: transparent;
+  height: 20px;
+  left: 402px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 88px;
+}
+.formgallery .asset-3-l1-2-C61RwL {
+  background-color: transparent;
+  height: 55px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 4334px;
+  width: 488px;
+}
+.formgallery .asset-31-main-2-C61RwL {
+  background-color: transparent;
+  height: 15px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 51px;
+}
+.formgallery .asset-34-twitter-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 645px;
+  object-fit: cover;
+  position: absolute;
+  top: 4413px;
+  width: 33px;
+}
+.formgallery .asset-35-discord-1-C61RwL {
+  background-color: transparent;
+  height: 22px;
+  left: 591px;
+  object-fit: cover;
+  position: absolute;
+  top: 4417px;
+  width: 40px;
+}
+.formgallery .asset-41-grottolab1-1-C61RwL {
+  background-color: transparent;
+  height: 48px;
+  left: 93px;
+  object-fit: cover;
+  position: absolute;
+  top: 4394px;
+  width: 58px;
+}
+.formgallery .bwgan-142-1-C61RwL {
+  background-color: transparent;
+  height: 153px;
+  left: 78px;
+  object-fit: cover;
+  position: absolute;
+  top: 1369px;
+  width: 164px;
+}
+.formgallery .bwgan-37-C61RwL {
+  background-color: transparent;
+  height: 168px;
+  left: 540px;
+  object-fit: cover;
+  position: absolute;
+  top: 1384px;
+  width: 144px;
+}
+.formgallery .bwgan-55-C61RwL {
+  background-color: transparent;
+  height: 122px;
+  left: 390px;
+  object-fit: cover;
+  position: absolute;
+  top: 1400px;
+  width: 128px;
+}
+.formgallery .bwgan-73-C61RwL {
+  background-color: transparent;
+  height: 145px;
+  left: 267px;
+  object-fit: cover;
+  position: absolute;
+  top: 1384px;
+  width: 98px;
+}
+.formgallery .colorgan-10-C61RwL {
+  background-color: transparent;
+  height: 155px;
+  left: 388px;
+  object-fit: cover;
+  position: absolute;
+  top: 1529px;
+  width: 141px;
+}
+.formgallery .colorgan-26-C61RwL {
+  background-color: transparent;
+  height: 152px;
+  left: 251px;
+  object-fit: cover;
+  position: absolute;
+  top: 1529px;
+  width: 144px;
+}
+.formgallery .colorgan-29-C61RwL {
+  background-color: transparent;
+  height: 132px;
+  left: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: 1536px;
+  width: 124px;
+}
+.formgallery .colorgan-8-C61RwL {
+  background-color: transparent;
+  height: 152px;
+  left: 537px;
+  object-fit: cover;
+  position: absolute;
+  top: 1529px;
+  width: 144px;
+}
+.formgallery .corruptgan-12-C61RwL {
+  background-color: transparent;
+  height: 136px;
+  left: 240px;
+  object-fit: cover;
+  position: absolute;
+  top: 1688px;
+  width: 148px;
+}
+.formgallery .corruptgan-16-1-C61RwL {
+  background-color: transparent;
+  height: 148px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 1681px;
+  width: 152px;
+}
+.formgallery .corruptgan-8-C61RwL {
+  background-color: transparent;
+  height: 136px;
+  left: 534px;
+  object-fit: cover;
+  position: absolute;
+  top: 1688px;
+  width: 147px;
+}
+.formgallery .corruptgan-9-C61RwL {
+  background-color: transparent;
+  height: 136px;
+  left: 388px;
+  object-fit: cover;
+  position: absolute;
+  top: 1688px;
+  width: 146px;
+}
+.formgallery .frame-2-C61RwL {
+  background-color: transparent;
+  height: 1px;
+  left: 555px;
+  overflow: hidden;
+  position: absolute;
+  top: 1012px;
+  width: 5px;
+}
+.formgallery .ganj48-baform-g-ettings-applied-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 116px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1197px;
+  width: 532px;
+}
+.formgallery .greyscalelegacy-114-C61RwL {
+  background-color: transparent;
+  height: 148px;
+  left: 376px;
+  object-fit: cover;
+  position: absolute;
+  top: 876px;
+  width: 146px;
+}
+.formgallery .greyscalelegacy-288-C61RwL {
+  background-color: transparent;
+  height: 148px;
+  left: 232px;
+  object-fit: cover;
+  position: absolute;
+  top: 876px;
+  width: 144px;
+}
+.formgallery .greyscalelegacy-347-C61RwL {
+  background-color: transparent;
+  height: 148px;
+  left: 86px;
+  object-fit: cover;
+  position: absolute;
+  top: 876px;
+  width: 146px;
+}
+.formgallery .greyscalelegacy-97-C61RwL {
+  background-color: transparent;
+  height: 148px;
+  left: 522px;
+  object-fit: cover;
+  position: absolute;
+  top: 876px;
+  width: 144px;
+}
+.formgallery .grotto-labs-logo-3-C61RwL {
+  background-color: transparent;
+  height: 78px;
+  left: 88px;
+  object-fit: cover;
+  position: absolute;
+  top: 4386px;
+  width: 67px;
+}
+.formgallery .hallucinogen-11-C61RwL {
+  background-color: transparent;
+  height: 154px;
+  left: 86px;
+  object-fit: cover;
+  position: absolute;
+  top: 2154px;
+  width: 162px;
+}
+.formgallery .hallucinogen-2-C61RwL {
+  background-color: transparent;
+  height: 154px;
+  left: 546px;
+  object-fit: cover;
+  position: absolute;
+  top: 2154px;
+  width: 153px;
+}
+.formgallery .hallucinogen-8-C61RwL {
+  background-color: transparent;
+  height: 154px;
+  left: 397px;
+  object-fit: cover;
+  position: absolute;
+  top: 2154px;
+  width: 151px;
+}
+.formgallery .hallucinogen-9-C61RwL {
+  background-color: transparent;
+  height: 154px;
+  left: 246px;
+  object-fit: cover;
+  position: absolute;
+  top: 2154px;
+  width: 153px;
+}
+.formgallery .left-arrow-1-C61RwL {
+  background-color: transparent;
+  height: 336px;
+  left: 75px;
+  object-fit: cover;
+  position: absolute;
+  top: 184px;
+  width: 138px;
+}
+.formgallery .legacyform-lega-ries-in-the-mix-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 116px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 559px;
+  width: 532px;
+}
+.formgallery .legacymonochrome-14-C61RwL {
+  background-color: transparent;
+  height: 139px;
+  left: 521px;
+  object-fit: cover;
+  position: absolute;
+  top: 720px;
+  width: 144px;
+}
+.formgallery .legacymonochrome-35-C61RwL {
+  background-color: transparent;
+  height: 139px;
+  left: 377px;
+  object-fit: cover;
+  position: absolute;
+  top: 725px;
+  width: 143px;
+}
+.formgallery .legacymonochrome-39-C61RwL {
+  background-color: transparent;
+  height: 139px;
+  left: 232px;
+  object-fit: cover;
+  position: absolute;
+  top: 732px;
+  width: 144px;
+}
+.formgallery .legacymonochrome-50-C61RwL {
+  background-color: transparent;
+  height: 139px;
+  left: 90px;
+  object-fit: cover;
+  position: absolute;
+  top: 725px;
+  width: 143px;
+}
+.formgallery .legacymulticolor-11-1-C61RwL {
+  background-color: transparent;
+  height: 123px;
+  left: 237px;
+  object-fit: cover;
+  position: absolute;
+  top: 1042px;
+  width: 137px;
+}
+.formgallery .legacymulticolor-26-1-C61RwL {
+  background-color: transparent;
+  height: 129px;
+  left: 385px;
+  object-fit: cover;
+  position: absolute;
+  top: 1042px;
+  width: 144px;
+}
+.formgallery .legacymulticolor-31-1-C61RwL {
+  background-color: transparent;
+  height: 155px;
+  left: 534px;
+  object-fit: cover;
+  position: absolute;
+  top: 1031px;
+  width: 150px;
+}
+.formgallery .legacymulticolor-5-1-C61RwL {
+  background-color: transparent;
+  height: 159px;
+  left: 78px;
+  object-fit: cover;
+  position: absolute;
+  top: 1020px;
+  width: 161px;
+}
+.formgallery .motionform-moti-htly-undulating-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 116px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1878px;
+  width: 532px;
+}
+.formgallery .musiform-musifo-ely-as-possible-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2367px;
+  width: 532px;
+}
+.formgallery .need-to-insert-mp4-assets-here-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 155px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2612px;
+  width: auto;
+}
+
+button, input{
+  display: contents;
+}
+
+.alice-carousel{
+  width:360px !important;
+}
+
+.alice-carousel__stage {
+height:600px !important;
+}
+
+.alice-carousel__stage-item{
+  background-color: transparent;
+  position: absolute;
+  top: 184px;
+  height: 344px;
+  object-fit: cover;
+  width: 343px;
+}
+
+.gallery-item img{
+  height: 344px;
+  object-fit: cover;
+  width: 343px;
+}
+
+.gallery-item video{
+  height: 344px;
+  object-fit: cover;
+  width: 343px;
+}
+
+.alice-carousel__dots{
+  display:none;
+}
+.alice-carousel__prev-btn-wrapper{
+  display:none;
+}
+.alice-carousel__next-btn-wrapper{
+  display:none;
+}
+
+
+.formgallery .rectangle-4-C61RwL {
+  background-color: transparent;
+  height: 344px;
+  left: 216px;
+  object-fit: cover;
+  position: absolute;
+  top: 184px;
+  width: 343px;
+}
+.formgallery .rectangle-6-C61RwL {
+  background-color: white;
+  height: 100px;
+  left: 86px;
+  position: absolute;
+  top: 2541px;
+  width: 618px;
+}
+.formgallery .right-arrow-1-C61RwL {
+  background-color: transparent;
+  height: 336px;
+  left: 575px;
+  object-fit: cover;
+  position: absolute;
+  top: 184px;
+  width: 116px;
+}
+.formgallery .slice-1-C61RwL {
+  background-color: transparent;
+  height: 100px;
+  left: 4344px;
+  position: absolute;
+  top: 938px;
+  width: 100px;
+}
+.formgallery .span0-9xwOVZ {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.formgallery .span0-CsDQ4b {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.formgallery .span0-KE05Ey {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.formgallery .span0-PdQC4f {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.formgallery .span0-lwroS2 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.formgallery .span1-9xwOVZ {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.formgallery .span1-CsDQ4b {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.formgallery .span1-KE05Ey {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.formgallery .span1-PdQC4f {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.formgallery .span1-lwroS2 {
+  color: rgba(0,0,0,1.0);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.formgallery .speedie-1-C61RwL {
+  background-color: transparent;
+  height: 143px;
+  left: 547px;
+  object-fit: cover;
+  position: absolute;
+  top: 2014px;
+  width: 152px;
+}
+.formgallery .speedie-109-C61RwL {
+  background-color: transparent;
+  height: 143px;
+  left: 92px;
+  object-fit: cover;
+  position: absolute;
+  top: 2014px;
+  width: 151px;
+}
+.formgallery .speedie-78-C61RwL {
+  background-color: transparent;
+  height: 143px;
+  left: 395px;
+  object-fit: cover;
+  position: absolute;
+  top: 2014px;
+  width: 152px;
+}
+.formgallery .speedie-90-C61RwL {
+  background-color: transparent;
+  height: 143px;
+  left: 243px;
+  object-fit: cover;
+  position: absolute;
+  top: 2014px;
+  width: 152px;
+}
+.formgallery .text-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Space Mono', Helvetica;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 5828px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1980px;
+  width: auto;
+}
+.formgallery .ultraform-ultra-ization-is-nice-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 86px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 3762px;
+  width: 608px;
+}
+.formgallery .ultraformchroma010-C61RwL {
+  background-color: transparent;
+  height: 150px;
+  left: 552px;
+  object-fit: cover;
+  position: absolute;
+  top: 3910px;
+  width: 154px;
+}
+.formgallery .ultraformchroma011-C61RwL {
+  background-color: transparent;
+  height: 150px;
+  left: 396px;
+  object-fit: cover;
+  position: absolute;
+  top: 3910px;
+  width: 156px;
+}
+.formgallery .ultraformchroma012-C61RwL {
+  background-color: transparent;
+  height: 150px;
+  left: 240px;
+  object-fit: cover;
+  position: absolute;
+  top: 3910px;
+  width: 156px;
+}
+.formgallery .ultraformchroma014-C61RwL {
+  background-color: transparent;
+  height: 150px;
+  left: 84px;
+  object-fit: cover;
+  position: absolute;
+  top: 3910px;
+  width: 156px;
+}
+.formgallery .ultraformpixel007-C61RwL {
+  background-color: transparent;
+  height: 138px;
+  left: 551px;
+  object-fit: cover;
+  position: absolute;
+  top: 4080px;
+  width: 159px;
+}
+.formgallery .ultraformpixel009-C61RwL {
+  background-color: transparent;
+  height: 138px;
+  left: 391px;
+  object-fit: cover;
+  position: absolute;
+  top: 4080px;
+  width: 160px;
+}
+.formgallery .ultraformpixel015-C61RwL {
+  background-color: transparent;
+  height: 138px;
+  left: 231px;
+  object-fit: cover;
+  position: absolute;
+  top: 4080px;
+  width: 159px;
+}
+.formgallery .ultraformpixel020-C61RwL {
+  background-color: transparent;
+  height: 138px;
+  left: 69px;
+  object-fit: cover;
+  position: absolute;
+  top: 4080px;
+  width: 160px;
+}
