@@ -5,10 +5,11 @@ class GRID extends React.Component {
   render() {
     return (
 <div class="container-center-horizontal">
-      <div class="grid screen">
-        <img class="asset-3-l1-2-C61RwL" src="img/asset-3l1-2-1@2x.png" />
-        <img class="asset-34-twitter-1-C61RwL" src="img/asset-34twitter-1@2x.png" />
-        <img class="asset-35-discord-1-C61RwL" src="img/asset-35discord-1@2x.png" />
+    <div class="blocker"></div>
+      <div class="grid screen slider">
+      <img class="asset-3-l1-2-C61RwL" src="img/asset-3l1-2-1@2x.png" />
+      <a href="https://twitter.com/j48baforms" target="_blank"><img class="asset-34-twitter-1-C61RwL" src="img/asset-34twitter-1@2x.png" /></a>
+        <a href="https://discord.com/invite/NYkTbFv4" target="_blank"><img class="asset-35-discord-1-C61RwL" src="img/asset-35discord-1@2x.png" /></a>
         <img class="asset-26-j48-messy-1-C61RwL" src="img/asset-26j48messy-1-2@2x.png" />
         <img class="asset-41-grottolab1-1-C61RwL" src="img/asset-41grottolab1-1@2x.png" />
         <img class="grotto-labs-logo-3-C61RwL" src="img/grotto-labs-logo-6@2x.png" />
@@ -522,6 +523,7 @@ class GRID extends React.Component {
         <img class="greyscalelegacy-494-C61RwL" src="img/greyscale-legacy--494-@2x.png" />
       </div>
     </div>
+
     )
 };
 }

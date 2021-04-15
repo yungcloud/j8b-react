@@ -1,13 +1,40 @@
 /* screen - grid */
 
+
+.blocker{
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:60px;
+  width:100%;
+  background:white;
+  z-index:1;
+}
+
+.slider {
+  animation: marquee 100s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateY(0);
+  }
+  to { 
+    transform: translateY(-100%);
+  }
+}
+
 .grid {
   background-color: var(--white);
-  height: 3317px;
+  height: 3500px;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 789px;
+  width: 780px;
+  margin-top:0px;
+  display:block;
 }
+
 .grid .asset-18-prov-2-C61RwL {
   background-color: transparent;
   cursor: pointer;
@@ -17,6 +44,9 @@
   position: absolute;
   top: 35px;
   width: 68px;
+  animation-direction: alternate;
+  animation: pulse 3s infinite;
+
 }
 .grid .asset-20-gallery-2-C61RwL {
   background-color: transparent;

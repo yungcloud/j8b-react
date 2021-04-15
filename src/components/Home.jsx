@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom";
 import "../styles/home.css";
 
 class HOME extends React.Component {
@@ -23,12 +24,8 @@ class HOME extends React.Component {
             <div class="flex-row-0xy0vn">
               <div class="flex-col-GyJUNH">
                 <div class="j48-baforms-pro-d-cared-for-art-3xHcwy spacemono-normal-black-12px">
-                  J48BAFORMS (Pronounced Jabbaforms) <br />Is a multifaceted artistic experiment minted on a boutique
-                  bonding curve. A series of 4848 Works of art are available at random. A wide array of different rarities
-                  are available, ranging from original drawings to animated compositions with accompanying music. The aim
-                  of J48BAFORMS is to maximize the artistic touch on a wide body of instantly deployable NFTs. We want to
-                  offer a scarce but obtainable body of work that commands true originality, value, and secondary market
-                  activity- with the main focus on delivering high quality and cared for art.
+                  J48BAFORMS (Pronounced Jabbaforms) <br />
+is a multifaceted artistic experiment minted on a boutique bonding curve. A series of 4848 Works of art are available at random. An exciting array of different rarities are available, ranging from original hand-drawings to animated works with original musical compositions. J48BAFORMS are a scarce body of work that display high originality, value, and secondary market potential.We are focused on delivering high quality and cared-for collectible art.
                 </div>
                 <div class="overlap-group3-3xHcwy">
                   <img alt=""  class="rectangle-3-DTrHo1" src="img/rectangle-3@2x.png" />
@@ -40,13 +37,7 @@ class HOME extends React.Component {
               <div class="flex-col-gkUG7I">
                 <div class="overlap-group2-nFOi0F">
                   <div class="we-started-with-afted-with-love-jexT3O spacemono-normal-black-12px">
-                    We started with a series of 1000 hand drawn “LEGACYFORMS” in order to build a wholly original
-                    foundation for the series. After painstakingly digitizing each jabbaform, we ran the LEGACYFORM
-                    dataset through a GAN (Generative Adversarial Network), producing highly interesting variants. The end
-                    result is a unique multimedia project with lots of surprises, . Our goal is to provide well curated
-                    and affordable collectible artworks that aren’t designed as a cash grab or lottery-but rather highly
-                    original, fun and handcrafted artwork accessible in a fair but finite number; each one special and
-                    crafted with love.
+                  J48BAFORMS started with 1000 hand drawn “LEGACYFORMS” produced by our gifted in-house artist. We believe this set a wholly original foundation for the series. After digitizing each LEGACYFORM, the dataset was processed through our GAN (Generative Adversarial Network) over 2 weeks. This period of time allowed the neural network to learn and interpret the original drawings and their inherent style- producing highly interesting machine-generated variants that feel like an organic extension of the artist’s work. We believe that J48BAFORMS  is a unique NFT multimedia project that elegantly displays the talents of the artist and GAN, working in symbiosis.
                   </div>
                   <img alt=""  class="rectangle-2-jexT3O" src="img/rectangle-2@2x.png" />
                 </div>
@@ -60,7 +51,10 @@ class HOME extends React.Component {
               <img alt=""  class="asset-4-l3-1-xpmbvu" src="img/asset-4l3-1@1x.png" />
               <div class="flex-row-xpmbvu">
                 <img alt=""  class="barre-lj48-1-fKmFVR" src="img/barrelj48-1@2x.png" />
-                <img alt=""  class="purchasejabbaform-final-1-fKmFVR" src="img/purchasejabbaform-final-1@2x.png" />
+
+                {/* PURCHASE BUTTON */}
+                <Link class="" to="/Purchase"><img alt="purchase"  class="purchasejabbaform-final-1-fKmFVR" src="img/purchasejabbaform-final-1@2x.png" /></Link>
+
                 <img alt=""  class="barre-lj48-2-fKmFVR" src="img/barrelj48-1@2x.png" />
               </div>
               <img alt=""  class="asset-67curve-3-xpmbvu" src="img/asset-67curve-3@1x.png" />
@@ -68,7 +62,7 @@ class HOME extends React.Component {
                 <div class="flex-col-4xxXEe">
                   <div class="overlap-group1-Ee5ApG">
                     <img alt=""  class="asset-3-l1-2-xYI43P" src="img/asset-3l1-2@2x.png" />
-                    <img alt=""  class="asset-35-discord-1-xYI43P" src="img/asset-35discord-1@2x.png" />
+                    <a href="https://discord.com/invite/NYkTbFv4" target="_blank"><img alt=""  class="asset-35-discord-1-xYI43P" src="img/asset-35discord-1@2x.png" /></a>
                     <img alt=""  class="asset-26-j48-messy-1-xYI43P" src="img/asset-26j48messy-1@2x.png" />
                     <img alt=""  class="asset-41-grottolab1-1-xYI43P" src="img/asset-41grottolab1-1@2x.png" />
                     <img alt=""  class="grotto-labs-logo-6-xYI43P" src="img/grotto-labs-logo-3-6@2x.png" />

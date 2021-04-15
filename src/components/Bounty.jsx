@@ -19,10 +19,15 @@ class BOUNTY extends React.Component {
                     <img class="bountymerch-2-xXGW75" src="img/bounty-merch-2@2x.png" />
                   </div>
                   <img class="asset-30-claimbounty-1-FrjclV" src="img/asset-30claimbounty-1@2x.png" />
-                  <img
-                    class="do-you-have-a-j-of-a-kind-prize-FrjclV"
-                    src="img/do-you-have-a-j48baform-with-a-bounty--connect-your-wallet-to-fi@2x.svg"
-                  />
+                  <div class="do-you-have-oa-of-a-kind-prize-FrjclV spacemono-normal-black-15px">
+              <center>33 BOUNTYFORMS IN THE COLLECTION.<br />
+              BOUNTYFORMS ARE REDEEMABLE FOR A CUSTOMIZED J48BAFORM MERCH ITEM.<br /><br /><br />
+
+               DO YOU HAVE A J48BAFORM WITH A BOUNTY?<br />
+                CONNECT YOUR WALLET TO FIND OUT AND CLAIM YOUR
+                ONE OF A KIND PRIZE. 
+             </center>
+            </div>
                   <div class="overlap-group1-FrjclV">
                     <img class="asset-3-l1-2-GVQFxU" src="img/asset-3l1-2-1@2x.png" />
                     <a href="https://discord.com/invite/NYkTbFv4" target="_blank"><img class="asset-35-discord-1-GVQFxU" src="img/asset-35discord-1@2x.png" /></a>

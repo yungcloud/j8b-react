@@ -3,9 +3,8 @@
 * {
   box-sizing: border-box;
 }
-
 html {
-  zoom: 1; 
+  overflow-y: scroll;
 }
 
 .container-center-horizontal{
@@ -20,6 +19,15 @@ html {
   font-style: normal;
   font-weight: 400;
 }
+
+.spacemono-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-space_mono);
+  font-size: var(--font-size-15px);
+  font-style: normal;
+  font-weight: 400;
+}
+
 :root {
   --black: rgba(0, 0, 0, 1);
   --font-family-space_mono: "Space Mono", Helvetica;

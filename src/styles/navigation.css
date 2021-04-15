@@ -118,6 +118,14 @@
     margin-left: 42px;
     object-fit: cover;
     width: 68px;
+    cursor: pointer;
+  }
+  .asset-18-prov-grid {
+    height: 18px;
+    margin-left: 42px;
+    object-fit: contain;
+    width: 68px;
+    cursor: pointer;
   }
   .asset-20-gallery-2 {
     align-self: center;
@@ -126,12 +134,14 @@
     margin-left: 31px;
     object-fit: cover;
     width: 85px;
+    cursor: pointer;
   }
   .asset-21-purchase-2 {
     height: 17px;
     margin-left: 49px;
     object-fit: cover;
     width: 83px;
+    cursor: pointer;
   }
   .asset-23-wallet-3 {
     height: 15px;
@@ -139,6 +149,7 @@
     margin-top: 1px;
     object-fit: cover;
     width: 99px;
+    cursor: pointer;
   }
   .asset-26-j48-messy-1 {
     height: 120px;
@@ -153,6 +164,7 @@
     margin-left: 30px;
     object-fit: cover;
     width: 88px;
+    cursor: pointer;
   }
   .asset-3-l1-2 {
     height: 55px;
