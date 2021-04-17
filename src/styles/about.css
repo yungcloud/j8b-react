@@ -1,6 +1,5 @@
 /* screen - about */
 
-
 .about {
   align-items: flex-end;
   background-color: var(--white);
@@ -11,7 +10,7 @@
   justify-content: flex-start;
   overflow: hidden;
   overflow-x: hidden;
-  padding: 50px 64.5px;
+  padding: 33px 64.5px;
   position: relative;
   width: 789px;
 }

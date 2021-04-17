@@ -1,7 +1,139 @@
 import React from "react";
 import "../styles/purchase.css";
+import Web3 from 'web3'
+
+const jabba_forms_abi = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"approved","type":"address"},{"indexed":true,"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"operator","type":"address"},{"indexed":false,"internalType":"bool","name":"approved","type":"bool"}],"name":"ApprovalForAll","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":true,"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[],"name":"MAX_JABBAS","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"METADATA_PROVENANCE_HASH","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"numJabbas","type":"uint256"}],"name":"adoptJABBA","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"approve","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"baseURI","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"calculatePrice","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_id","type":"uint256"}],"name":"calculatePriceTest","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"getApproved","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"hasSaleStarted","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"operator","type":"address"}],"name":"isApprovedForAll","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"ownerOf","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"pauseDrop","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"safeTransferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"},{"internalType":"bytes","name":"_data","type":"bytes"}],"name":"safeTransferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"operator","type":"address"},{"internalType":"bool","name":"approved","type":"bool"}],"name":"setApprovalForAll","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"string","name":"baseURI","type":"string"}],"name":"setBaseURI","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"string","name":"_hash","type":"string"}],"name":"setProvenanceHash","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"startDrop","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bytes4","name":"interfaceId","type":"bytes4"}],"name":"supportsInterface","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"index","type":"uint256"}],"name":"tokenByIndex","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"uint256","name":"index","type":"uint256"}],"name":"tokenOfOwnerByIndex","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"tokenURI","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_owner","type":"address"}],"name":"tokensOfOwner","outputs":[{"internalType":"uint256[]","name":"","type":"uint256[]"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"tokenId","type":"uint256"}],"name":"transferFrom","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"withdrawAll","outputs":[],"stateMutability":"payable","type":"function"}]
+
+const jabba_forms_contract_address = "0xa0d8c43465f1Aa6F361ef572F79FBbbfD387DA0f"
 
 class PURCHASE extends React.Component {
+
+    constructor() {
+      super();
+      this.state = {
+        address: "No wallet connected",
+        connected: false,
+        signedIn: false,
+        network: null,
+        currPrice: 0
+      };
+    }
+
+    async componentWillMount(){
+      await this.ConnectMetamask()
+      //await this.DisplayPurchasePrice()
+      var currPrice = await this.GetPurchasePrice()
+      this.setState({currPrice: currPrice})
+    }
+
+    GetNetwork() {
+      return new Promise(resolve => {
+        window.web3.eth.net.getNetworkType().then(response => resolve(response))
+      })
+    }
+
+    async ConnectMetamask(){
+      this.setState({connected:false, signedIn: false});
+
+      if (typeof window.web3 !== 'undefined') {
+        window.web3 = new Web3(window.ethereum);
+        var net = await this.GetNetwork();
+        this.setState({connected: true, network: net})
+      } else {
+        this.setState({connected: false})
+        return;
+      }
+
+      if (window.ethereum) {
+        await window.ethereum.request({ method: 'eth_requestAccounts' });
+        if(window.ethereum.selectedAddress){
+          this.setState({signedIn: true});
+        }
+      } else {
+        this.setState({signedIn: false});
+      }
+    }
+
+    async GetPurchasePrice(){
+      if(this.state.connected){
+        const jabbaContract = new window.web3.eth.Contract(jabba_forms_abi, jabba_forms_contract_address)
+        const currPrice = await jabbaContract.methods.calculatePrice().call()
+        return currPrice
+      }
+      return 0;
+    }
+
+    CreatePurchasePrice(){
+
+      if(!this.state.signedIn){
+        return (
+          <img class="connect-wallet-52Wjwg" src="img/connect-wallet-1@2x.png" />
+        )
+      }
+
+      if(this.state.currPrice == 80000000000000000){
+        return (
+          <img class="x08-eth-1-52Wjwg" src="img/08eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 140000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/14eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 250000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/25eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 330000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/33eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 400000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/40eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 500000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/50eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 600000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/60eth-1@2x.png" />
+        )
+      }
+      else if(this.state.currPrice == 1000000000000000000){
+        return(
+          <img class="x08-eth-1-52Wjwg" src="img/1eth-1@2x.png" />
+        )
+      }
+
+    }
+
+    async PurchaseJabba(){
+      this.ConnectMetamask()
+
+      if(!this.state.signedIn){
+        alert("wallet not connected")
+        return;
+      }
+
+      const jabbaContract = new window.web3.eth.Contract(jabba_forms_abi, jabba_forms_contract_address)
+      const currPrice = await jabbaContract.methods.calculatePrice().call()
+
+      const transactionParameters = {
+        to: jabba_forms_contract_address,
+        from: window.ethereum.selectedAddress,
+        value: currPrice.toString(),
+      };
+
+      var res = await jabbaContract.methods.adoptJABBA(1).send(transactionParameters)
+
+    }
 
     render(){
         return (
@@ -12,9 +144,9 @@ class PURCHASE extends React.Component {
                   <img class="you-doodle202-9-t072157-z-1-NG5cxJ" src="img/you-doodle-2021-04-09t07-21-57z-1@1x.png" />
 
                   {/* THE PURCHASE BUTTON */}
-                  <img class="jabbaform-purchase-button3-1-NG5cxJ" src="img/jabbaform-purchase-button3-1@1x.png" />
-                  <img class="asset-22-purchjabb-2-NG5cxJ" src="img/asset-22purchjabb-2@2x.png" />
-                   
+                  <button onClick={this.PurchaseJabba.bind(this)}> <img class="jabbaform-purchase-button3-1-NG5cxJ" src="img/jabbaform-purchase-button3-1@1x.png" /> </button>
+                  <img onClick={this.PurchaseJabba.bind(this)} class="asset-22-purchjabb-2-NG5cxJ" src="img/asset-22purchjabb-2@2x.png" />
+
                    {/* THE PURCHASE TEXT */}
                   <div class="frame-3-NG5cxJ">
                   <div class="frame-5-AdpH7j"></div>
@@ -39,7 +171,8 @@ class PURCHASE extends React.Component {
                   <img class="asset-4-l3-2-52Wjwg" src="img/asset-4l3-2@1x.png" />
 
                    {/* ETHEREUM PRICE INDICATION */}
-                  <img class="x08-eth-1-52Wjwg" src="img/08eth-1@2x.png" />
+                  {/*<img class="x08-eth-1-52Wjwg" src="img/08eth-1@2x.png" />*/}
+                  {this.CreatePurchasePrice()}
                 </div>
                 <div class="flex-row-0xy0vn">
                   <img class="bwgan-251-GyJUNH" src="img/bw-gan---251-@2x.png" />
