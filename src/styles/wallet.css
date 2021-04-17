@@ -7,14 +7,26 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 2099px;
+  height: auto;
+  min-height:1200px;
   justify-content: flex-start;
-  overflow: hidden;
+  overflow: scroll;
   overflow-x: hidden;
   padding: 33px 64.5px;
   position: relative;
   width: 789px;
 }
+
+.loading{
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 40px;
+  margin-left: 190px;
+  object-fit: cover;
+  position: relative;
+  width: 286px;
+}
+
 .wallet-true .asset-18-prov-1-dXBp89 {
   background-color: transparent;
   cursor: pointer;

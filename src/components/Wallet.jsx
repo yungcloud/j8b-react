@@ -136,7 +136,7 @@ class WALLET extends React.Component {
 
       if(!this.state.init){
         return(
-          <img class="asset-23-wallet-2-GyJUNH" src="img/loading.png" />
+          <img class="loading" src="img/loading.png" />
         )
       }
 

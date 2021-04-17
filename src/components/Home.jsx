@@ -25,10 +25,9 @@ class HOME extends React.Component {
               <div class="flex-col-GyJUNH">
                 <div class="j48-baforms-pro-d-cared-for-art-3xHcwy spacemono-normal-black-12px">
                   J48BAFORMS (Pronounced Jabbaforms) <br />
-is a multifaceted artistic experiment minted on a boutique bonding curve. A series of 4848 Works of art are available at random. An exciting array of different rarities are available, ranging from original hand-drawings to animated works with original musical compositions. J48BAFORMS are a scarce body of work that display high originality, value, and secondary market potential.We are focused on delivering high quality and cared-for collectible art.
-                </div>
+is a multifaceted artistic experiment minted on a boutique bonding curve. A series of 4848 Works of art are available at random. An exciting array of different rarities are present, from original hand-drawings to animated works with accompanying musical scores. J48BAFORMS started with 1000 hand drawn “LEGACYFORMS” produced by the artist, which serves as the foundation for the series.                </div>
                 <div class="overlap-group3-3xHcwy">
-                  <img alt=""  class="rectangle-3-DTrHo1" src="img/rectangle-3@2x.png" />
+                  <img alt=""  class="rectangle-3-DTrHo1" src="img/j8ba-front-page.png" />
                   <div class="computer-genera-d-ganj48-baform-DTrHo1 spacemono-normal-black-12px">
                     COMPUTER GENERATED “GANJ48BAFORM”
                   </div>
@@ -37,8 +36,7 @@ is a multifaceted artistic experiment minted on a boutique bonding curve. A seri
               <div class="flex-col-gkUG7I">
                 <div class="overlap-group2-nFOi0F">
                   <div class="we-started-with-afted-with-love-jexT3O spacemono-normal-black-12px">
-                  J48BAFORMS started with 1000 hand drawn “LEGACYFORMS” produced by our gifted in-house artist. We believe this set a wholly original foundation for the series. After digitizing each LEGACYFORM, the dataset was processed through our GAN (Generative Adversarial Network) over 2 weeks. This period of time allowed the neural network to learn and interpret the original drawings and their inherent style- producing highly interesting machine-generated variants that feel like an organic extension of the artist’s work. We believe that J48BAFORMS  is a unique NFT multimedia project that elegantly displays the talents of the artist and GAN, working in symbiosis.
-                  </div>
+                  After digitizing each LEGACYFORM, the dataset was processed through our GAN (Generative Adversarial Network) over 2 weeks. In this time period, the neural network learned and interpreted the original drawings and their inherent style, producing highly interesting machine-generated variants that feel like an organic extension of the artist’s work. J48BAFORMS is a unique NFT multimedia project that elegantly displays the talents of the artist and GAN, working in symbiosis.                  </div>
                   <img alt=""  class="rectangle-2-jexT3O" src="img/rectangle-2@2x.png" />
                 </div>
                 <div class="hand-made-legacy-j48-baform-nFOi0F spacemono-normal-black-12px">

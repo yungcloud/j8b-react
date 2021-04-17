@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+input[type="range"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("https://i.ibb.co/j4STfgD/j8-slider-track.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+.slider-wrapper{
+    width: 650px;
+    position: relative;
+    left: -600px;
+    border: 1px solid red;
+    z-index: 100;
+    background: green;
+    top: 60px;
+    height:100px;
+}

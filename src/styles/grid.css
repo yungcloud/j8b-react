@@ -1,5 +1,8 @@
 /* screen - grid */
 
+.container-center-horizontal{
+  margin-top:0px;
+}
 
 .blocker{
   position:fixed;
@@ -20,7 +23,7 @@
     transform: translateY(0);
   }
   to { 
-    transform: translateY(-100%);
+    transform: translateY(0);
   }
 }
 
@@ -31,7 +34,7 @@
   overflow-x: hidden;
   position: relative;
   width: 780px;
-  margin-top:0px;
+  margin-top:-50px;
   display:block;
 }
 

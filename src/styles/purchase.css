@@ -45,7 +45,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 1930px;
+  height: 2100px;
   justify-content: flex-start;
   overflow: hidden;
   overflow-x: hidden;
@@ -93,7 +93,7 @@
   object-fit: cover;
   position: absolute;
   top: 741px;
-  width: 251px;
+  width: 255px;
   cursor: pointer;
   z-index:2;
 }
@@ -430,6 +430,7 @@
   height: 871px;
   position: relative;
   width: 710px;
+  margin-bottom:300px;
 }
 .purchase .overlap-group2-0xy0vn {
   background-color: transparent;
